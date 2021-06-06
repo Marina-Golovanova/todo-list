@@ -1,0 +1,22 @@
+.list-deal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+
+  &__header {
+    font-family: Roboto;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__close {
+    background-color: #fff;
+    width: 30px;
+  }
+}

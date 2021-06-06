@@ -1,0 +1,40 @@
+.input {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  width: 620px;
+  margin-bottom: 10px;
+
+  &__control {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+  &__img {
+    width: 30px;
+  }
+
+  &__item {
+    width: 500px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-left: 14px;
+    font-family: Roboto;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    &--done {
+      text-decoration: line-through;
+      color: grey;
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}
